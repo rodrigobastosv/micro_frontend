@@ -1,0 +1,9 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    constant_identifier_names: false
+    use_key_in_widget_constructors: false
+    avoid_classes_with_only_static_members: false
+    prefer_relative_imports: true

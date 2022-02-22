@@ -1,2 +1,2 @@
-export './iupp_colors.dart';
-export './iupp_fonts.dart';
+export 'nimia_colors.dart';
+export 'nimia_fonts.dart';

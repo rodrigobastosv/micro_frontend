@@ -1,0 +1,43 @@
+name: flutter_reference_architecture
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  core:
+    path: ../core
+
+  components:
+    path: ../components
+
+  micro_app_conta_digital:
+    path: ../micro_app_conta_digital
+
+  micro_app_fit_vlogger:
+    path: ../micro_app_fit_vlogger
+
+  micro_app_marketplace:
+    path: ../micro_app_marketplace
+
+  micro_app_meios_de_pagamento:
+    path: ../micro_app_meios_de_pagamento
+
+dev_dependencies:
+  mocktail: ^0.1.2
+  faker: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+  # Util
+  import_sorter: ^4.5.1
+
+flutter:
+  uses-material-design: true
