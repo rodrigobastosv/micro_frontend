@@ -1,0 +1,28 @@
+name: core
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: none
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^4.0.4
+  equatable: ^2.0.3
+  event_bus: ^2.0.0
+  get_it: ^7.2.0
+  logger: ^1.1.0
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  faker: ^2.0.0-rc.2
+  mocktail: ^0.2.0
+
+flutter:
